@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
 
-        CustomNavigationView(view: AnyView(Home(filteredItems: $filteredItems)), placeHolder: "Apps,Games", largeTitle: true, title: "Kavsoft",
+        CustomNavigationView(view: AnyView(Home(filteredItems: $filteredItems)), placeHolder: "Apps,Games", largeTitle: true, title: "Search",
                              
             onSearch: { (txt) in
 
